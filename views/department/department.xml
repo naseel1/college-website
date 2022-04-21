@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="department" model="website.page">
+        <field name="name">DEPARTMENTS</field>
+        <field name="website_published">True</field>
+        <field name="url">/department"</field>
+        <field name="type">qweb</field>
+        <field name="key">website.department"</field>
+        <field name="arch" type="xml">
+            <t t-name="website.department_template">
+                 <t t-call="website.layout">
+                     <link rel="stylesheet" href="/sample_theme/static/css/vision.css"/>
+                     <div id="wrap" class="oe_structure">
+                     </div>
+                 </t>
+            </t>
+        </field>
+    </record>
+</odoo>
+
+

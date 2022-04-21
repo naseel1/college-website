@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="vision.css"?>
+<odoo>
+     <record id="pg-admission" model="website.page">
+        <field name="name">PG Admission Procedure</field>
+        <field name="website_published">True</field>
+        <field name="url">/pg admission</field>
+        <field name="type">qweb</field>
+        <field name="key">website.pg-admission</field>
+        <field name="arch" type="xml">
+            <t t-name="website.pg-admission_template">
+                 <t t-call="website.layout">
+                     <link rel="stylesheet" href="/sample_theme/static/css/vision.css"/>
+                     <div id="wrap" class="oe_structure">
+                         <body>
+                            <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars"></i></button>
+                            <!--==========================
+                            Header
+                            ============================-->
+                            <header id="header">
+
+                                <div id="topbar">
+                                    <div class="container-fluid pr-4">
+                                        <div class="social-links">
+                                            <script async="" src="https://cse.google.com/cse.js?cx=000379722875292299553:btw8ytxmmcs"></script>
+                                            <div id="___gcse_0" style="display: none;">
+                                                <div class="gsc-control-cse gsc-control-cse-en">
+                                                    <div class="gsc-control-wrapper-cse" dir="ltr">
+                                                        <form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8">
+                                                            <table class="gsc-search-box" cellspacing="0" cellpadding="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="gsc-input">
+                                                                            <div class="gsc-input-box" id="gsc-iw-id1">
+                                                                                <table style="width: 100%; padding: 0px;" id="gs_id50" class="gstl_50 gsc-input" cellspacing="0" cellpadding="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td id="gs_tti50" class="gsib_a">
+                                                                                                <input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; background: rgb(255, 255, 255) url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) no-repeat scroll left center; outline: currentcolor none medium;" id="gsc-i-id1" dir="ltr" spellcheck="false"/>
+                                                                                            </td>
+                                                                                            <td class="gsib_b">
+                                                                                                <div class="gsst_b" id="gs_st50" dir="ltr">
+                                                                                                    <a class="gsst_a" href="javascript:void(0)" style="display: none;" title="Clear search box" role="button"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="gsc-search-button">
+                                                                            <button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button>
+                                                                        </td>
+                                                                        <td class="gsc-clear-button">
+                                                                            <div class="gsc-clear-button" title="clear results"></div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </form>
+                                                        <div class="gsc-results-wrapper-overlay">
+                                                            <div class="gsc-results-close-btn" tabindex="0"></div>
+                                                            <div class="gsc-positioningWrapper">
+                                                                <div class="gsc-tabsAreaInvisible">
+                                                                    <div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div>
+                                                                    <span class="gs-spacer"> </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="gsc-positioningWrapper">
+                                                                <div class="gsc-refinementsAreaInvisible"></div>
+                                                            </div>
+                                                            <div class="gsc-above-wrapper-area-invisible">
+                                                                <table class="gsc-above-wrapper-area-container" cellspacing="0" cellpadding="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="gsc-result-info-container">
+                                                                                <div class="gsc-result-info-invisible"></div>
+                                                                            </td>
+                                                                            <td class="gsc-orderby-container">
+                                                                                <div class="gsc-orderby-invisible">
+                                                                                    <div class="gsc-orderby-label gsc-inline-block">Sort by:</div>
+                                                                                    <div class="gsc-option-menu-container gsc-inline-block">
+                                                                                        <div class="gsc-selected-option-container gsc-inline-block">
+                                                                                            <div class="gsc-selected-option">Relevance</div>
+                                                                                            <div class="gsc-option-selector"></div>
+                                                                                        </div>
+                                                                                        <div class="gsc-option-menu-invisible">
+                                                                                            <div class="gsc-option-menu-item gsc-option-menu-item-highlighted">
+                                                                                                <div class="gsc-option">Relevance</div>
+                                                                                            </div>
+                                                                                            <div class="gsc-option-menu-item">
+                                                                                                <div class="gsc-option">Date</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="gsc-adBlockInvisible"></div>
+                                                            <div class="gsc-wrapper">
+                                                                <div class="gsc-adBlockInvisible"></div>
+                                                                <div class="gsc-resultsbox-invisible">
+                                                                    <div class="gsc-resultsRoot gsc-tabData gsc-tabdActive">
+                                                                        <div>
+                                                                            <div class="gsc-expansionArea"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gsc-modal-background-image" tabindex="0"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="https://www.google.com" class="gSearch" onclick="ShowSearch()"><i class="fa fa-search"></i></a>
+                                            <a href="https://www.linkedin.com/school/emeacollege-kondotty" class="twitter" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://www.facebook.com/Emea-College-of-Arts-Science-Kondotty-107721514305586" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.youtube.com/channel/UCQG5OoObUi3oYIMRmQAtyOw" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+                                            <a href="/Home/ContactUs" class="p-0"> Contact Us </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="container-fluid">
+
+                                        <div class="logo float-left">
+                                            <div class="d-none d-md-block" style="float:left;margin-right:10px;">
+                                                <img src="https://www.emeacollege.ac.in/Content/Home/img/Logo.png" class="img-fluid strch-img" alt="logo"/>
+                                            </div>
+                                            <h1><a href="#intro" class="scrollto" style="font-size: 32px;"><span>EMEA</span></a></h1>
+                                            <div class="d-none d-md-block">
+
+                                                <p class="m-0 text-white">
+                                                    College of Arts and Science <br/>
+                                                    Aided By Govt of Kerala <br/>
+                                                    Affiliated to the University of Calicut<br/>
+                                                    Reacredited by NAAC with A Grade
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </header>
+                            <section id="intro" class="clearfix">
+                                <!--<div class="container d-flex h-100">-->
+                                <!--<div class="row justify-content-center align-self-center">-->
+                                <style>
+                                    .overlay {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        content: '';
+                                        opacity: .4;
+                                        background: #000000;
+                                    }
+
+                                    .logo {
+                                        position: absolute;
+                                        width: 50%;
+                                        top: 0px;
+                                        left: 0;
+                                        padding: 10px;
+                                    }
+
+                                    #header .logo img {
+                                        padding: 0;
+                                        margin: 12px 0;
+                                        width: 80px;
+                                    }
+
+                                    #header .logo h1 {
+                                        font-family: 'Oswald', sans-serif;
+                                        font-size: 48px;
+                                        margin: 0;
+                                        padding: 0;
+                                        line-height: 1;
+                                        font-weight: 600;
+                                        letter-spacing: 1px;
+                                        text-shadow: 1px 1px 1px #000;
+                                    }
+
+                                    #header p {
+                                        text-shadow: 1px 1px 1px #000;
+                                        font-size: 12px;
+                                        line-height: 1.4;
+                                        font-weight: 400;
+                                    }
+                                </style>
+                                <div class="col-md-12" id="headerBanner">
+                                    <div class="row">
+                                        <img src="https://www.emeacollege.ac.in/Content/Home/img/banner.jpg" class="img-fluid strch-img w-100" alt="banner" style="height:160px; background-size: cover;"/>
+                                        <div class="overlay"></div>
+                                        <div class="w-100" style="margin-top: -49px;text-align: center;z-index: 996">
+
+
+                                            <h3 class="text-center w-100 text-shadow" style="color:#cbe5ff;">
+                                                PG Admission Procedure
+                                            </h3>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                             <main id="main">
+                                <style>
+                                    .table tr {
+                                        padding: 20px;
+                                    }
+
+                                    .table td {
+                                        padding: 4px;
+                                        vertical-align: text-bottom;
+                                        border-top: 1px solid #dee2e6;
+                                        height: 18px;
+                                        padding-top: 10px;
+                                        padding-bottom: 0px;
+                                    }
+
+                                    h5 {
+                                        font-family: "Nunito Sans", Arial, sans-serif;
+                                        font-weight: 400;
+                                        margin: 0 0 0px 0;
+                                        padding: 0;
+                                        vertical-align: text-bottom;
+                                    }
+
+                                    ul.corevalues {
+                                        padding-left: 0;
+                                        list-style-type: none;
+                                    }
+
+                                        ul.corevalues li {
+                                            padding-left: 2rem;
+                                            background-image: url(http://emeacollege.ac.in/uploads/images/bullet_blue.png);
+                                            background-position: 0 0;
+                                            background-size: 1.6rem 1.6rem;
+                                            background-repeat: no-repeat;
+                                            font-size: 16px;
+                                            margin-bottom: 10px;
+                                        }
+                                </style>
+                                <div class="container">
+                                    <div class="col-md-12 py-5">
+                                            <iframe src="http://emeacollege.ac.in/Uploads/Files/ProspectusPG2019.pdf" class="SingleFrame"></iframe>
+                                    </div>
+                                </div>
+                             </main>
+                             <footer class="EMEA">
+                                <section class="" style="line-height: 0.8; font-size: 14px; letter-spacing: 3">
+                                    <div class="container">
+                                        <div class="a border-bottom py-3">
+                                            <div class="row">
+                                                <div class="col-md-3 mt-4">
+                                                    <h5 class="sub-heading mb-2 text-white">EMEA College</h5>
+                                                    <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                                    <div class="DescBox ContactUsMain text-white p-0">
+                                                        <h2>EMEA College of Arts and Science</h2>
+                                                        <p>Kumminiparamaba PO</p>
+                                                        <p>Kondotty, Malappuram Dt.</p>
+                                                        <p>Kerala - India</p>
+                                                        <p>PIN :673638</p>
+                                                        <p>Phone :
+                                                            <a href="tel:0483 271 2030">0483 271 2030</a>
+                                                        </p>
+                                                        <p>E-mail :
+                                                            <a href="mailto:mail@emeacollege.ac.in">mail@emeacollege.ac.in</a>
+                                                        </p>
+                                                    </div>
+                                                    <div class="w-100 text-center">
+                                                        <a href="/Home/ContactUs" class="button-style text-white mt-4 mb-3" style="padding-top: 12px; padding-bottom: 12px;">
+                                                            <span> Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 text-white mt-4">
+                                                    <h5 class="sub-heading text-white mb-2 text-center">BOOKS RELEASED</h5>
+                                                    <hr class="info-color mt-0 mb-2" style="width:80px;"></hr>
+                                                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                                        <div class="carousel-inner" style="width: 285px; padding-left:80px;">
+                                                            <div class="carousel-item active">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D681_F1036.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;"/>
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Pandemic Turn: Business Resilience Practice</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D645_F927.jpeg" style="height: 150px; max-width: 130px;" class="d-block w-100" alt="one"/>
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1038.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D646_F929.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <div class="py-2">
+                                                                <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                            </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1039.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100 text-center" style="padding-top:12px; padding-bottom:12px;">
+                                                            <a href="/Home/Publication" class="button-style text-white mt-3 mb-3">
+                                                                <span> Read More</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-3 mt-4" style="line-height: 1.5rem !important;font: normal normal normal 14px/1 FontAwesome;line-height: 1; font-weight: 400;">
+                                                    <h5 class="sub-heading text-white mb-2">QUICK LINKS</h5>
+                                                    <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                                    <div class="mb-2">
+                                                        <a href="/Home/IQAC/Feedback/1731" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback
+                                                        </a>
+                                                        <a href="/Home/IQAC/Feedback/1732" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback ATR
+                                                        </a>
+                                                        <a href="/Home/StudentAffairs/StudentsDescipline/1675/1723" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Grievance Redressal
+                                                        </a>
+                                                        <a href="/Home/AboutUs/CodeofConduct" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Code of Conduct
+                                                        </a>
+                                                        <a href="/Home/StudentAffairs/CapabilityEnhancementandDevelopmentSchemes/1753" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Capability Enhancement &amp; Development...
+                                                        </a>
+                                                        <a href="/Home/AboutUs/AboutCollege" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Core Values
+                                                        </a>
+                                                        <a href="http://emeacollege.ac.in/Home/studentaffairs/StudentSupportSchemes/502" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Support Schemes
+                                                        </a>
+                                                        <a href="http://emeacollege.ac.in/Home/StudentAffairs/StudentSupportSchemes/502/1881" class="text-white d-block">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Swayam
+                                                        </a>
+                                                    </div>
+                                                    <div class="w-100 text-center">
+                                                        <a href="/Home/QuickLinks" class="button-style text-white mt-3 mb-3">
+                                                            <span> Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mt-5">
+                                                    <div class="row">
+                                                        <style>
+                                                                .MapFrame {
+                                                                    width: 100%;
+                                                                    height: 230px;
+                                                                }
+                                                            </style>
+                                                        <iframe class="MapFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.723591211386!2d75.94059231480391!3d11.133951792079507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64e5770b9701d%3A0x45f25d89e25f2256!2sEMEA%20College!5e0!3m2!1sen!2sin!4v1581589270430!5m2!1sen!2sin" style="border:0;" allowfullscreen="" frameborder="0"></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center pt-3 footersmalllink text-uppercase" style="color:#d0d0d0;">
+                                            <a href="/Home/FooterLinks/BloodDoner/1902">BLOOD DONORS</a> |
+
+                                            <a href="/Home/ContactUs">DIRECTORY</a> |
+
+
+
+                                            <a href="/Home/FooterLinks/Covid19/1832">COVID-19</a> |
+
+                                            <a href="/Home/FooterLinks/Vacancy/1834">VACANCY</a> |
+
+                                            <a href="/Home/Tenders">TENDERS</a> |
+
+                                            <a href="/Home/Newsletters">NEWSLETTERS</a> |
+
+                                            <a href="http://results.uoc.ac.in/">EXAM RESULTS</a> |
+
+                                            <a href="/Home/Orders">ORDERS</a> |
+
+                                            <a href="/Home/ImageGallery">GALLERY</a> |
+
+                                            <a href="/Home/aboutus/PTA">PTA</a> |
+
+
+                                            <a href="/Home/SiteMap">SITE MAP</a> |
+
+                                            <a href="/Home/FooterLinks/Disclaimer/1901">Disclaimer</a> |
+
+
+                                            <a href="https://www.ugc.ac.in/page/Helpline.aspx" target="_blank">24 x 7 Anti Ragging Helpline</a> |
+
+                                            <a href="https://forms.gle/QBn4BBCHXaEsEh8T9" target="_blank">Complaints ( Ragging )</a> |
+
+                                            <a href="https://forms.gle/mrr9EnyvVX859o5eA" target="_blank">Complaints ( Students Caste Discrimination )</a> |
+
+                                            <a href="https://forms.gle/iLGJZ5HhhdUpTq4S9" target="_blank">Complaints ( Sexual Harrassment )</a> |
+
+
+                                            <a href="https://forms.gle/x4obWqCiN62r49Zu8" target="_blank">Programme feedback</a> |
+
+                                            <a href="https://forms.gle/YZkLXjXkTP2wxdoZ8" target="_blank">Campus Feedback</a> |
+
+                                            <a href="https://forms.gle/P1kNeiFUxH8kqeLa7" target="_blank">Student Feedback</a> |
+
+                                            <a href="https://forms.gle/5Gt7FgkEPCoCRjm76" target="_blank">Site Feedback</a>  |
+
+                                            <a href="#">Site Visitors</a> :
+
+                                            <!-- Start of WebFreeCounter Code -->
+                                            <a href="#">
+                                                <img src="https://www.webfreecounter.com/hit.php?id=gefdcxo&amp;nd=6&amp;style=2" alt="hit counter" border="0"></img>
+                                            </a>
+                                            <!-- End of WebFreeCounter Code -->
+                                        </div>
+                                        <div class="text-center pt-2 pb-3" style="font-size:14px;">
+                                            <p class="m-0" style="color: gold;">Powered by
+                                                <a style="font-size:14px;" href="#">EMDOTMINCETECH</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </footer>
+                         </body>
+                     </div>
+                 </t>
+            </t>
+        </field>
+     </record>
+</odoo>

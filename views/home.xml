@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="style.css"?>
+<odoo>
+    <record id="action_website" model="ir.actions.act_url">
+        <field name="name">Website</field>
+        <field name="url">home</field>
+        <field name="target">self</field>
+    </record>
+    <template id="sample_theme.homepage" name="HOME"
+              inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <link rel="stylesheet" href="/sample_theme/static/css/style.css"/>
+            <div id="wrap" class="oe_structure">
+                 <body>
+                    <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars"></i></button>
+                    <!--==========================
+                    Header
+                    ============================-->
+                    <header id="header" class="">
+                        <div id="topbar">
+                            <div class="container-fluid pr-4">
+                                <div class="social-links">
+                                    <script async="" src="https://cse.google.com/cse.js?cx=000379722875292299553:btw8ytxmmcs"></script>
+                                    <div id="___gcse_0" style="display: none;">
+                                        <div class="gsc-control-cse gsc-control-cse-en">
+                                            <div class="gsc-control-wrapper-cse" dir="ltr">
+                                                <form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8">
+                                                    <table class="gsc-search-box" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="gsc-input">
+                                                                    <div class="gsc-input-box" id="gsc-iw-id1">
+                                                                        <table style="width: 100%; padding: 0px;" id="gs_id50" class="gstl_50 gsc-input" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td id="gs_tti50" class="gsib_a">
+                                                                                        <input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; background: rgb(255, 255, 255) url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) no-repeat scroll left center; outline: currentcolor none medium;" id="gsc-i-id1" dir="ltr" spellcheck="false"/>
+                                                                                    </td>
+                                                                                    <td class="gsib_b">
+                                                                                        <div class="gsst_b" id="gs_st50" dir="ltr">
+                                                                                            <a class="gsst_a" href="javascript:void(0)" style="display: none;" title="Clear search box" role="button"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="gsc-search-button">
+                                                                    <button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button>
+                                                                </td>
+                                                                <td class="gsc-clear-button">
+                                                                    <div class="gsc-clear-button" title="clear results"></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </form>
+                                                <div class="gsc-results-wrapper-overlay">
+                                                    <div class="gsc-results-close-btn" tabindex="0"></div>
+                                                    <div class="gsc-positioningWrapper">
+                                                        <div class="gsc-tabsAreaInvisible">
+                                                            <div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div>
+                                                            <span class="gs-spacer"> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gsc-positioningWrapper">
+                                                        <div class="gsc-refinementsAreaInvisible"></div>
+                                                    </div>
+                                                    <div class="gsc-above-wrapper-area-invisible">
+                                                        <table class="gsc-above-wrapper-area-container" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="gsc-result-info-container">
+                                                                        <div class="gsc-result-info-invisible"></div>
+                                                                    </td>
+                                                                    <td class="gsc-orderby-container">
+                                                                        <div class="gsc-orderby-invisible">
+                                                                            <div class="gsc-orderby-label gsc-inline-block">Sort by:</div>
+                                                                            <div class="gsc-option-menu-container gsc-inline-block">
+                                                                                <div class="gsc-selected-option-container gsc-inline-block">
+                                                                                    <div class="gsc-selected-option">Relevance</div>
+                                                                                    <div class="gsc-option-selector"></div>
+                                                                                </div>
+                                                                                <div class="gsc-option-menu-invisible">
+                                                                                    <div class="gsc-option-menu-item gsc-option-menu-item-highlighted">
+                                                                                        <div class="gsc-option">Relevance</div>
+                                                                                    </div>
+                                                                                    <div class="gsc-option-menu-item">
+                                                                                        <div class="gsc-option">Date</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="gsc-adBlockInvisible"></div>
+                                                    <div class="gsc-wrapper">
+                                                        <div class="gsc-adBlockInvisible"></div>
+                                                        <div class="gsc-resultsbox-invisible">
+                                                            <div class="gsc-resultsRoot gsc-tabData gsc-tabdActive">
+                                                                <div>
+                                                                    <div class="gsc-expansionArea"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gsc-modal-background-image" tabindex="0"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="https://www.google.com" class="gSearch" onclick="ShowSearch()"><i class="fa fa-search"></i></a>
+                                    <a href="https://www.linkedin.com/school/emeacollege-kondotty" class="twitter" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/Emea-College-of-Arts-Science-Kondotty-107721514305586" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCQG5OoObUi3oYIMRmQAtyOw" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    <a href="/Home/ContactUs" class="p-0"> Contact Us </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="logo float-left">
+                                <div class="d-none d-md-block" style="float:left;margin-right:10px;">
+                                    <img src="https://www.emeacollege.ac.in/Content/Home/img/Logo.png" class="img-fluid strch-img" alt="logo"/>
+                                </div>
+                                <h1><a href="#intro" class="scrollto" style="font-size: 32px;"><span>EMEA</span></a></h1>
+                                <div class="d-none d-md-block">
+
+                                    <p class="m-0 text-white">
+                                        College of Arts and Science <br></br>
+                                        Aided By Govt of Kerala <br></br>
+                                        Affiliated to the University of Calicut<br></br>
+                                        Rea credited by NAAC with A Grade
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <script >
+                        $(window).scroll(function(){
+                            if($(window).scrollTop()){
+                                $("nav").addClass("black");
+                            }
+                            else{
+                                $("nav").removeClass("black");
+
+                        })
+
+
+                    </script>
+
+
+                    <section id="intro" class="clearfix">
+                        <!--<div class="container d-flex h-100">-->
+                        <!--<div class="row justify-content-center align-self-center">-->
+
+                        <div class="col-md-12">
+                            <div class="row">
+                                <img src="https://www.emeacollege.ac.in/Content/Home/img/Photo-750.jpg" onerror="this.src='https://www.emeacollege.ac.in/Content/Home/img/Photo-750.jpg'" class="img-fluid strch-img w-100" alt="banner"/>
+                                <div class="overlay"></div>
+
+                            </div>
+                        </div>
+
+                        <!--Notification -->
+                        <section class="Notification Bg-Blue w-100" style="margin-top:-56px; position:absolute;">
+                            <div class="container-fluid">
+                                <div class="row text-white">
+                                    <div class="col-md-1 col-sm-1 col-sm-12 col-sm-12">
+                                        <div class="d-flex col-md-2 col-sm-12 NotificationDiv">
+                                            <div class="py-3 px-3" style="background: #362b2b38;">
+                                                <i class="fa fa-bell" aria-hidden="true"></i>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-9  col-sm-12">
+                                        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                                            <ul class="d-flex pt-3 m-0 text-white">
+                                            </ul>
+                                        </marquee>
+
+                                    </div>
+                                    <div class="col-md-2  col-sm-3 EMEA">
+                                        <div class="row align-content-center justify-content-center pt-2">
+                                            <a target="_blank" style="text-decoration:none;" href="https://momento360.com/e/uc/8a70349571cd4f72af58a37c4f46afb9?utm_campaign=embed&amp;utm_source=other&amp;reset-heading=true&amp;size=medium&amp;autoplay-collection=tr"><span class="blink text-white" style="padding-top: 10px; font-size: 20px; font-weight: 600; font-family: Nunito Sans, Arial, sans-serif; opacity: 0.638799;">Virtual tour</span></a>
+                                        </div>
+                                        <script>
+                                            function blink_text() {
+                                                $('.blink').fadeOut(1000);
+
+                                                $('.blink').fadeIn(1000);
+                                            }
+                                            setInterval(blink_text, 2000);
+                                        </script>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </section>
+                    <main id="main">
+                        <section class="welcome my-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 text-justify mt-2">
+                                        <h5 class="pt-2 mb-1 dark-blue">Welcome To EMEA </h5>
+                                        <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                        <p class="m-0" style="font-size: 13px; line-height: 2">
+                                            EMEA College of Arts and Science, Kondotti is fast emerging as a resourceful destination for higher studies in Malabar, spreading the fragrance of education in the society. This college is affiliated to the University of Calicut. The college offers up-to-date, advanced, and job-oriented programmes in the vast expanding horizon of humanities, commerece, and science and technology.
+
+                                            The college is situated at Kumminiparamba in Kondotti, 6 KMs away from University of Calicut, 2 KMs from Calicut International Airport, 18 KMs from Feroke Railway Station, and 32 KMs from Calicut
+
+
+                                            <a onclick="ShowDescDetail('Welcome To EMEA')" class="blue"> | Read More</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-6 mt-5" onclick="window.location = '/Home/Downloads'" style="cursor: pointer;">
+                                                <div class="col-md-12 border p-5 text-center hover1" style="font-size: 17px;">
+                                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                                    <p>Downloads</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-5" onclick="window.location = '/Home/AboutUs/AboutCollege'" style="cursor: pointer;">
+                                                <div class="col-md-12 border Bg-blue p-5 text-center hover2" style="font-size: 17px;">
+                                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                    <p>Mission &amp; Vision</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="principal">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 text-justify">
+                                        <h5 class="dark-blue mb-1">Principal's Message</h5>
+                                        <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                        <p style="font-size: 12px; line-height: 2">
+                                            <img src="http://emeacollege.ac.in/uploads/images/Images_M24_D0_F1363.jpeg" class="img-fluid strch-img" style="width:260px; float:left; padding:0 10px 0 0 ;"></img>
+                                            EMEA College of Arts and Science, Kondottti, was established as an embodiment of a long cherished dream of people of Ernad, a backward region in erstwhile Malabar District of British India. With the illustrious aim of bringing the educationally deprived youth of the region into the mainstream of education, the college came into existence in 1982 thanks to the efforts of visionary social leaders like
+
+
+
+                                            <a class="blue" href="/Home/AboutUs/Principal">| Read More</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 mt-4">
+                                        <div class="row" style="line-height: 1.5;">
+                                            <div class="col-md-6" onclick="window.location = '/Home/InMedia'" style="cursor: pointer;">
+                                                <div class="col-md-12 border Bg-blue p-5 text-center hover2" style="font-size: 14px; cursor: pointer;">
+                                                    <i class="fa fa-film" aria-hidden="true"></i>
+                                                    <p>In-Media</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" onclick="window.location = '/Home/Achievements'" style="cursor: pointer;">
+                                                <div class="col-md-12 border p-5 text-center hover1" style="font-size: 14px; cursor: pointer;">
+                                                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                                                    <p>Achievements</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="Events py-0 mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="col-md-12 p-0">
+                                            <h5 class="mb-1 dark-blue">Latest Events</h5>
+                                            <hr class="info-color m-0 mb-3" style="width:80px;"></hr>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div id="eventdiv" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                                                    <div class="owl-wrapper-outer">
+                                                        <div class="owl-wrapper" style="width: 11700px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D905_F1500.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                ONE-DAY SEMINAR ON KERALA...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                PG &amp; RESEARCH DEPARTMENT OF ECONOMICS EMEA College of Arts and Sci
+
+                                                                            </p>
+                                                                            <small class="blue">23/03/22</small>
+                                                                            <a href="/Home/EventsDetail/905" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D906_F1501.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Outcome Based Workshop on...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                EMEA College of Arts and Science, Kondotty Connect,the student communi
+
+                                                                            </p>
+                                                                            <small class="blue">22/03/22</small>
+                                                                            <a href="/Home/EventsDetail/906" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D903_F1498.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Orientation Programme on ...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                PG DEPARTMENT OF MICROBIOLOGY Career Guidance and Placement Cell In As
+
+                                                                            </p>
+                                                                            <small class="blue">20/03/22</small>
+                                                                            <a href="/Home/EventsDetail/903" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D902_F1497.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Extension Programme On Im...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height"></p>
+                                                                            <small class="blue">19/03/22</small>
+                                                                            <a href="/Home/EventsDetail/902" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D901_F1496.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Intercollegiate Staff 5s ...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height"></p>
+                                                                            <small class="blue">18/03/22</small>
+                                                                            <a href="/Home/EventsDetail/901" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D900_F1495.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                A Seminar on Higher Studi...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                A Seminar on Higher Studies in UK - Challenges and Opportunities by th
+
+                                                                            </p>
+                                                                            <small class="blue">17/03/22</small>
+                                                                            <a href="/Home/EventsDetail/900" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D879_F1453.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Womens Day Celebrations 2...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                Women's Day Celebrations 2022 by Women Cell at 10.30 am @ AVT on M
+
+                                                                            </p>
+                                                                            <small class="blue">16/03/22</small>
+                                                                            <a href="/Home/EventsDetail/879" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D871_F1439.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                One Day Orientation Progr...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height"></p>
+                                                                            <small class="blue">15/03/22</small>
+                                                                            <a href="/Home/EventsDetail/871" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D872_F1443.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Sayyid Hyderali Shihab Th...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height"></p>
+                                                                            <small class="blue">14/03/22</small>
+                                                                            <a href="/Home/EventsDetail/872" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D870_F1438.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                 One Book One Student Cha...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                    One Book One Student Challenge Programme by Library Club on Marc
+
+                                                                            </p>
+                                                                            <small class="blue">14/03/22</small>
+                                                                            <a href="/Home/EventsDetail/870" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D863_F1432.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Women and Society: A Spec...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                Women &amp; Society: A Special Talk on Women's Rights and Law by C
+
+                                                                            </p>
+                                                                            <small class="blue">11/03/22</small>
+                                                                            <a href="/Home/EventsDetail/863" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D865_F1434.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Interaction with Prominen...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                  Interaction with Prominent Alumni: Topic- A Gateway to Central U
+
+                                                                            </p>
+                                                                            <small class="blue">11/03/22</small>
+                                                                            <a href="/Home/EventsDetail/865" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D868_F1436.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                INCUBATE- Orientation for...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                INCUBATE- Orientation for First Year Principal's Club Members by P
+
+                                                                            </p>
+                                                                            <small class="blue">11/03/22</small>
+                                                                            <a href="/Home/EventsDetail/868" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D854_F1424.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                 മെഗാ തൊഴില്‍ മേള                                            </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                കൊണ്ടോട്ടി ഇഎംഇഎ കോളജ് സെന്റർ ഫോർ കോമ്പിറ്റേറ്റിവ് എക്സാമിനേഷൻ ആൻഡ് പ്
+
+                                                                            </p>
+                                                                            <small class="blue">10/03/22</small>
+                                                                            <a href="/Home/EventsDetail/854" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-item" style="width: 390px;">
+                                                                <div class="item">
+                                                                    <div class="item-in">
+                                                                        <div class="col-md-12 Bg-blue mb-2">
+                                                                            <div class="row justify-content-center">
+                                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D860_F1429.jpeg" class="img-fluid strch-img" onerror="this.src='/Uploads/Images/Default_Image.jpeg'"></img>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="py-2">
+                                                                            <h5 class="blue mb-1" style="font-size: large;">
+                                                                                Womens Day Celebrations 2...                                             </h5>
+                                                                            <p class="text-justify m-0 line-height">
+                                                                                Women's Day Celebrations 2022 - Phenomenal Women by Women Cell &amp;am
+
+                                                                            </p>
+                                                                            <small class="blue">08/03/22</small>
+                                                                            <a href="/Home/EventsDetail/860" class="dark-blue ml-2"> | Read More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-controls clickable">
+                                                        <div class="owl-pagination">
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page active">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                            <div class="owl-page">
+                                                                <span class=""></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--ENd eventdiv1-->
+                                            </div>
+                                            <div class="allevnts text-center" style="margin-top: 14px;">
+                                                <a href="/Home/Events" class="button-style ml-3 mt-2 text-white mb-3">
+                                                    <span> Read More</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5 class="mb-1 dark-blue">College Documentary</h5>
+                                        <hr class="info-color m-0 mb-3" style="width:80px;"></hr>
+                                        <div class="embed-responsive embed-responsive-21by9" style="height: 347px;">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K_4-_tw4olU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h5 class="mb-1 dark-blue">News</h5>
+                                        <hr class="info-color m-0 mb-1" style="width:80px;"></hr>
+                                        <div class="vticker" style="position: relative; height: 380px; overflow: hidden;">
+                                            <ul style="margin: 0px; position: relative; top: 0px;">
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">ചതുർദിന വിവാഹപൂർവ്വ കൗൺസലിംഗ് കോഴ്സ് </h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            ചതുർദിന വിവാഹപൂർവ്വ കൗൺസലിംഗ് കോഴ്സിന് തുടക്കമായി
+
+                                                            കേരള സർക്കാറിന് കീഴിലുള്ള ന്യൂനപക്ഷ ക്ഷേമ വകുപ്പി
+
+                                                            <br></br>
+                                                            <small class="blue">1/12/2022</small>
+                                                            <a onclick="NewsDetail('833')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">ചതുർദിന വിവാഹപൂർവ്വ കൗൺസലിംഗ് കോഴ്സ് - രണ്ടാം ബാച്ച്</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                           കേരള സർക്കാറിന് കീഴിലുള്ള ന്യൂനപക്ഷ ക്ഷേമ വകപിന്റെ ു്യത്തിൽഇ എം ഇ എ ആർട്സ് ആന്റ് സയൻസ
+
+                                                            <br></br>
+                                                            <small class="blue">1/3/2022</small>
+                                                            <a onclick="NewsDetail('829')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">NSS STATE AWARD 2021</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            കൊണ്ടോട്ടി: ഈ വര്‍ഷത്തെ സംസ്ഥാന എന്‍.എസ്‌.എസ്‌. അവാര്‍ഡുകള്‍ ഇ.എംഇ.എ കോളജി
+
+                                                            <br></br>
+                                                            <small class="blue">9/25/2021</small>
+                                                            <a onclick="NewsDetail('812')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">LT. Abdul Rasheed P took over as the new Principal of EMEA.</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            <br></br>
+                                                            <small class="blue">9/22/2021</small>
+                                                            <a onclick="NewsDetail('809')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">EMEA Student Identified a New Strain of Fungus</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Mr. Sadiqali Mullan of MSc Microbiology identified a new strain of the fungus pencillium mallochi in
+
+                                                            <br></br>
+                                                            <small class="blue">9/6/2021</small>
+                                                            <a onclick="NewsDetail('807')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">UG Admission 2021-2022 notification</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Applications are invited for admission to the Under Graduate Programmes in the affiliated Arts &amp;
+
+                                                            <br></br>
+                                                            <small class="blue">8/6/2021</small>
+                                                            <a onclick="NewsDetail('790')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">Five-day international webinar series on Covid Turn: Global Trend in Business Resilience Strategies</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            PG Department of Commerce, EMEA College of Arts and Science, Kondotty, Kerala, is organi
+
+                                                            <br></br>
+                                                            <small class="blue">7/1/2021</small>
+                                                            <a onclick="NewsDetail('781')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">PSC COACHING FOR STO (STATE TAX OFFICER)</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            PG Department of Commerce, EMEA College of Arts &amp; Science Kondotty is organising coaching classe
+
+                                                            <br></br>
+                                                            <small class="blue">6/7/2021</small>
+                                                            <a onclick="NewsDetail('767')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">Webinar on Summer Research Fellowships: What You Need to Know</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Department of Biochemistry, E. M. E. A College of Arts and Science Kondotti organises a Webinar on S
+
+                                                            <br></br>
+                                                            <small class="blue">6/3/2021</small>
+                                                            <a onclick="NewsDetail('764')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">Build From Home(BFH)  is an initiative of TinkerHub</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Build From Home(BFH) is an initiative of TinkerHub. The task assigned was to build a protect w
+
+                                                            <br></br>
+                                                            <small class="blue">6/3/2021</small>
+                                                            <a onclick="NewsDetail('765')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">Profile Building Course</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Build Your Profile
+
+                                                            Spend a day and boost your profile!The first step to your dream careerTake part
+
+                                                            <br></br>
+                                                            <small class="blue">3/18/2022</small>
+                                                            <a onclick="NewsDetail('904')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">മെഗാ ക്യാംപസ് പ്ലേസ്മെൻറ് ഡ്രൈവ് </h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            കൊണ്ടോട്ടി ഇഎംഇഎ കോളജ് സെന്റർ ഫോർ കോമ്പിറ്റേറ്റിവ് എക്സാമിനേഷൻ ആൻഡ് പ്ലേസ്മെൻറ് സെല്‍ മെഗാ ക്യാം
+
+                                                            <br></br>
+                                                            <small class="blue">3/10/2022</small>
+                                                            <a onclick="NewsDetail('855')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">COMMFIESTA 22  Inter-Department Management Festival  Unleash the Conqueror in YOU. </h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Commerce club of PG department of Commerce is hosting a management festival to up lift the manageria
+
+                                                            <br></br>
+                                                            <small class="blue">2/27/2022</small>
+                                                            <a onclick="NewsDetail('853')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1">Unwinding Wings _ Talk with Eminent Personalities</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            Principal's Club (under Students Advisory Scheme), EMEA College Kondotty organizes a gathering o
+
+                                                            <br></br>
+                                                            <small class="blue">1/15/2022</small>
+                                                            <a onclick="NewsDetail('837')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li style="margin: 0px;">
+                                                    <div class="col-md-12 border-bottom p-2">
+                                                        <h6 class="blue mb-1"> "Author Talks"</h6>
+                                                        <p class="text-justify m-0 line-height">
+                                                            PG Department of English, EMEA College Kondotty in collaboration with Other Books organizes a progra
+
+                                                            <br></br>
+                                                            <small class="blue">1/14/2022</small>
+                                                            <a onclick="NewsDetail('834')" class="blue ml-2"> | Read More</a>
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="/Home/News" class="button-style ml-3 mt-4 text-white mb-3">
+                                                <span> Read More</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ReadMore Modal -->
+                        <div class="modal" id="myDescModal" data-keyboard="false" data-backdrop="static">
+                            <div class="modal-dialog animated fadeIn modal-lg">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="lblCaption"></h5>
+                                        <button type="button" class="close" data-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <h5 id="lblDate"></h5>
+                                        <div id="lblDescription" class="DescBox"></div>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger ModalButton" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END ReadMore Modal-->
+                        <div id="welMessege" style="display:none">EMEA College of Arts and Science, Kondotti is fast emerging as a resourceful destination for higher studies in Malabar, spreading the fragrance of education in the society. This college is affiliated to the University of Calicut. The college offers up-to-date, advanced, and job-oriented programmes in the vast expanding horizon of humanities, commerece, and science and technology.
+
+                        The college is situated at Kumminiparamba in Kondotti, 6 KMs away from University of Calicut, 2 KMs from Calicut International Airport, 18 KMs from Feroke Railway Station, and 32 KMs from Calicut City; with a congenial atmosphere for academic pursuits. The place is ideally suited for the growth and development of educational institutions for higher learning. The institution aims at the over all development of this backward area of Kerala by opening new vistas of opportunities to the future generations, without any discrimination against caste, creed, sex or colour.
+
+                        The college is run by Ernad Muslim Educational Association, which was formed with the objective of establishing a chain of educational institutions and cultural centres to cater to the needs of educationally and culturally backward section of the community. The college is a stepping stone to realize the objectives envisaged by the Association.
+
+                        Established on 1st November 1982 as a junior college, it flourished as a post graduate college today.
+                        </div>
+                        <div id="PrincMessege" style="display:none">EMEA College of Arts and Science, Kondottti, was established as an embodiment of a long cherished dream of people of Ernad, a backward region in erstwhile Malabar District of British India. With the illustrious aim of bringing the educationally deprived youth of the region into the mainstream of education, the college came into existence in 1982 thanks to the efforts of visionary social leaders like Sayyid Mohammed Ali Shihab Thangal, Jb. P Seethi Haji Sahib, Jb. Avukader Kutty Naha Sahib, Jb. N.V Ibrahim Master, etc. The college is run by Ernad Muslim Education Association, a registered society formed by a group of social reformers for establishing educational institutions to uplift the socially and economically backward populace of the region.
+
+                        Started in 1982 as a humble institution offering pre-degree courses in commerce and humanities, the college is now a full-fledged centre of academic excellence providing five PG Programmes, eleven UG Programmes two BVoc Programmes and a PhD Programme in Economics. The college was accredited by NAAC with &amp;#39;B++&amp;#39; grade in its first cycle of accreditation in 2005. Later in 2014, it was awarded with &amp;#39;A&amp;#39; grade. And recently in 2021, the college underwent the third cycle and got accredited with &amp;#39;A&amp;#39; grade (CGPA: 3.13)
+
+                        EMEA College is now renowned for its excellence in academic performance, well-qualified faculty, state-of-the-art facilities, and curricular and co-curricular activities. The beautiful campus sprawls over twenty acres of land. That the college has all facilities and provisions for enhancing the abilities of student community like SMST Memorial Central Library, science and computer science laboratories, Wi-Fi connectivity, research and publication facilities, audio visual theatre, auditorium, sports ground, gymnasium, hostels; NSS, SIP, NCC Units, Students Union, and the presence of other club activities make the college an ideal campus that every student dreams of.
+
+                        The support and guidance being extended by the philanthropic EMEA management to the college and students are distinctive. Old Students Association of EMEA (OSAEMEA), the alumni association is committed to the betterment of their alma mater and contributes immensely to its infrastructural and academic growth. The activities and contributions of the college PTA are unparalleled. The Shihab Thangal Memorial Merit Scholarship it instituted is the best example.
+
+                        The college has always promoted the sports and arts activities of the students. The Physical Education Department has won myriad of state and national level championships in football, weightlifting, Wushu, and volleyball.
+
+                        Being a temple of learning, the college is committed to provide quality education, and to help students chase and achieve their aspirations along with fostering good nature, discipline, respect and responsibility within them and thereby moulding them into useful individuals for their family and society.
+
+                        Let us do the best.
+
+                        Thank you.
+
+                        Lt. Abdul Rasheed P
+
+                        Principal
+
+                        Contact Info:
+                        Email: principal@emeacollege.ac.in
+                        Phone : 0483 271 3530, 9400600786
+                        </div>
+                        <!---News read more -->
+                        <div class="modal" id="ActivityModal" data-keyboard="false" data-backdrop="static">
+                            <div class="modal-dialog animated fadeIn modal-lg">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="lblCaption">News</h5>
+                                        <button type="button" class="close" data-dismiss="modal"></button><button type="button" class="close" data-dismiss="modal"></button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <div class="col-md-12 pb-2">
+                                            <h5 id="lblDate"></h5>
+                                            <div id="lblDescription" class="DescBox"></div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger ModalButton" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--End news read more-->
+                        <script>
+                            function ShowDescDetail(Caption) {
+                                $("#lblCaption").html(Caption);
+                                switch (Caption) {
+                                    case 'Welcome To EMEA':
+                                        $("#lblDescription").html($("#welMessege").html());
+                                        break;
+                                    case 'Principal Message':
+                                        $("#lblDescription").html($("#PrincMessege").html());
+                                        $("#lblCaption").html("Principal's Message");
+                                        break;
+                                }
+
+                                $('#myDescModal').modal('show');
+                            }
+                        </script>
+                        <script>
+                            function NewsDetail(id) {
+                                $.ajax({
+                                    url: '/Home/GetNews',
+                                    data: { 'id': id },
+                                    type: 'GET',
+                                    dataType: 'JSON',
+                                    success: function (data) {
+                                    var DataID = data.DataID;
+                                    $("#ActivityModal #lblCaption").html(data.DataCaption);
+                                    $("#ActivityModal #lblDescription").html(data.DataDescription);
+                                    var DataText = data.DataText;
+                                    var pieces = DecodeJsonDate(data.Date).split('/');
+                                    $("#ActivityModal #lblDate").html(pieces.join('-'));
+                                    $('#ActivityModal').modal('show');
+                                    }
+                                    });
+                         }
+                            </script>
+                        <style>
+                            a {
+                                cursor: pointer;
+                            }
+                        </style>
+                    </main>
+                    <footer class="EMEA">
+                        <section class="" style="line-height: 0.8; font-size: 14px; letter-spacing: 3">
+                            <div class="container">
+                                <div class="a border-bottom py-3">
+                                    <div class="row">
+                                        <div class="col-md-3 mt-4">
+                                            <h5 class="sub-heading mb-2 text-white">EMEA College</h5>
+                                            <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                            <div class="DescBox ContactUsMain text-white p-0">
+                                                <h2>EMEA College of Arts and Science</h2>
+                                                <p>Kumminiparamaba PO</p>
+                                                <p>Kondotty, Malappuram Dt.</p>
+                                                <p>Kerala - India</p>
+                                                <p>PIN :673638</p>
+                                                <p>Phone :
+                                                    <a href="tel:0483 271 2030">0483 271 2030</a>
+                                                </p>
+                                                <p>E-mail :
+                                                    <a href="mailto:mail@emeacollege.ac.in">mail@emeacollege.ac.in</a>
+                                                </p>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <a href="/Home/ContactUs" class="button-style text-white mt-4 mb-3" style="padding-top: 12px; padding-bottom: 12px;">
+                                                    <span> Read More</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 text-white mt-4">
+                                            <h5 class="sub-heading text-white mb-2 text-center">BOOKS RELEASED</h5>
+                                            <hr class="info-color mt-0 mb-2" style="width:80px;"></hr>
+                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner" style="width: 285px; padding-left:80px;">
+                                                    <div class="carousel-item active">
+                                                        <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D681_F1036.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;"/>
+                                                        <div class="py-2">
+                                                            <h6 class="text-white text-center m-0">Pandemic Turn: Business Resilience Practice</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item" style="width: 285px;">
+                                                        <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D645_F927.jpeg" style="height: 150px; max-width: 130px;" class="d-block w-100" alt="one"/>
+                                                        <div class="py-2">
+                                                            <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="carousel-item" style="width: 285px;">
+                                                        <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1038.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                        <div class="py-2">
+                                                            <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item" style="width: 285px;">
+                                                        <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D646_F929.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                        <div class="py-2">
+                                                        <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                    </div>
+                                                    </div>
+                                                    <div class="carousel-item" style="width: 285px;">
+                                                        <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1039.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                        <div class="py-2">
+                                                            <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100 text-center" style="padding-top:12px; padding-bottom:12px;">
+                                                    <a href="/Home/Publication" class="button-style text-white mt-3 mb-3">
+                                                        <span> Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-3 mt-4" style="line-height: 1.5rem !important;font: normal normal normal 14px/1 FontAwesome;line-height: 1; font-weight: 400;">
+                                            <h5 class="sub-heading text-white mb-2">QUICK LINKS</h5>
+                                            <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                            <div class="mb-2">
+                                                <a href="/Home/IQAC/Feedback/1731" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback
+                                                </a>
+                                                <a href="/Home/IQAC/Feedback/1732" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback ATR
+                                                </a>
+                                                <a href="/Home/StudentAffairs/StudentsDescipline/1675/1723" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Grievance Redressal
+                                                </a>
+                                                <a href="/Home/AboutUs/CodeofConduct" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Code of Conduct
+                                                </a>
+                                                <a href="/Home/StudentAffairs/CapabilityEnhancementandDevelopmentSchemes/1753" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Capability Enhancement &amp; Development...
+                                                </a>
+                                                <a href="/Home/AboutUs/AboutCollege" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Core Values
+                                                </a>
+                                                <a href="http://emeacollege.ac.in/Home/studentaffairs/StudentSupportSchemes/502" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Support Schemes
+                                                </a>
+                                                <a href="http://emeacollege.ac.in/Home/StudentAffairs/StudentSupportSchemes/502/1881" class="text-white d-block">
+                                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Swayam
+                                                </a>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <a href="/Home/QuickLinks" class="button-style text-white mt-3 mb-3">
+                                                    <span> Read More</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mt-5">
+                                            <div class="row">
+                                                <style>
+                                                        .MapFrame {
+                                                            width: 100%;
+                                                            height: 230px;
+                                                        }
+                                                    </style>
+                                                <iframe class="MapFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.723591211386!2d75.94059231480391!3d11.133951792079507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64e5770b9701d%3A0x45f25d89e25f2256!2sEMEA%20College!5e0!3m2!1sen!2sin!4v1581589270430!5m2!1sen!2sin" style="border:0;" allowfullscreen="" frameborder="0"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center pt-3 footersmalllink text-uppercase" style="color:#d0d0d0;">
+                                    <a href="/Home/FooterLinks/BloodDoner/1902">BLOOD DONORS</a> |
+
+                                    <a href="/Home/ContactUs">DIRECTORY</a> |
+
+
+
+                                    <a href="/Home/FooterLinks/Covid19/1832">COVID-19</a> |
+
+                                    <a href="/Home/FooterLinks/Vacancy/1834">VACANCY</a> |
+
+                                    <a href="/Home/Tenders">TENDERS</a> |
+
+                                    <a href="/Home/Newsletters">NEWSLETTERS</a> |
+
+                                    <a href="http://results.uoc.ac.in/">EXAM RESULTS</a> |
+
+                                    <a href="/Home/Orders">ORDERS</a> |
+
+                                    <a href="/Home/ImageGallery">GALLERY</a> |
+
+                                    <a href="/Home/aboutus/PTA">PTA</a> |
+
+
+                                    <a href="/Home/SiteMap">SITE MAP</a> |
+
+                                    <a href="/Home/FooterLinks/Disclaimer/1901">Disclaimer</a> |
+
+
+                                    <a href="https://www.ugc.ac.in/page/Helpline.aspx" target="_blank">24 x 7 Anti Ragging Helpline</a> |
+
+                                    <a href="https://forms.gle/QBn4BBCHXaEsEh8T9" target="_blank">Complaints ( Ragging )</a> |
+
+                                    <a href="https://forms.gle/mrr9EnyvVX859o5eA" target="_blank">Complaints ( Students Caste Discrimination )</a> |
+
+                                    <a href="https://forms.gle/iLGJZ5HhhdUpTq4S9" target="_blank">Complaints ( Sexual Harrassment )</a> |
+
+
+                                    <a href="https://forms.gle/x4obWqCiN62r49Zu8" target="_blank">Programme feedback</a> |
+
+                                    <a href="https://forms.gle/YZkLXjXkTP2wxdoZ8" target="_blank">Campus Feedback</a> |
+
+                                    <a href="https://forms.gle/P1kNeiFUxH8kqeLa7" target="_blank">Student Feedback</a> |
+
+                                    <a href="https://forms.gle/5Gt7FgkEPCoCRjm76" target="_blank">Site Feedback</a>  |
+
+                                    <a href="#">Site Visitors</a> :
+
+                                    <!-- Start of WebFreeCounter Code -->
+                                    <a href="#">
+                                        <img src="https://www.webfreecounter.com/hit.php?id=gefdcxo&amp;nd=6&amp;style=2" alt="hit counter" border="0"></img>
+                                    </a>
+                                    <!-- End of WebFreeCounter Code -->
+                                </div>
+                                <div class="text-center pt-2 pb-3" style="font-size:14px;">
+                                    <p class="m-0" style="color: gold;">Powered by
+                                        <a style="font-size:14px;" href="#">EMDOTMINCETECH</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </footer>
+                </body>
+            </div>
+        </xpath>
+    </template>
+</odoo>
