@@ -57,13 +57,19 @@
         'views/academics/ug-admission.xml',
         'views/academics/pg-admission.xml',
         'views/academics/certificate.xml',
-        'views/academics/learning.xml',
+        'views/academics/learning-management.xml',
         'views/academics/calendar.xml',
         'views/academics/human-values.xml',
 
         'views/students zone/students-zone.xml',
         'views/students zone/nss.xml',
         'views/students zone/ncc.xml',
+        'views/students zone/clubs.xml',
+        'views/students zone/student-support.xml',
+        'views/students zone/capability.xml',
+        'views/students zone/student-discipline.xml',
+        'views/students zone/student-union.xml',
+
 
 
 

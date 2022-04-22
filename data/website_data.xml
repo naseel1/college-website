@@ -204,7 +204,7 @@
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
             </record>
-            <record id="learning_menu" model="website.menu">
+            <record id="learning-management_menu" model="website.menu">
                 <field name="name">Learning Management System</field>
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
@@ -239,6 +239,37 @@
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
             </record>
+            <record id="clubs_menu" model="website.menu">
+                <field name="name">CLUBS</field>
+                <field name="url">/clubs</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="student-support_menu" model="website.menu">
+                <field name="name">Student Support Scheme</field>
+                <field name="url">/student support</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="capability_menu" model="website.menu">
+                <field name="name">Capability Enhancement and Development Schemes</field>
+                <field name="url">/capability</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="student-discipline_menu" model="website.menu">
+                <field name="name">Student Discipline</field>
+                <field name="url">/student discipline</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="student-union_menu" model="website.menu">
+                <field name="name">Student Union</field>
+                <field name="url">/student union</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+
 
 
 
