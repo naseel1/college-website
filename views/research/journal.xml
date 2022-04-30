@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <record id="journal" model="website.page">
+        <field name="name">Journal</field>
+        <field name="website_published">True</field>
+        <field name="url">/journal</field>
+        <field name="type">qweb</field>
+        <field name="key">website.journal</field>
+        <field name="arch" type="xml">
+            <t t-name="website.journal_template">
+                 <t t-call="website.layout">
+                     <div id="wrap" class="oe_structure">
+                         <a href="http://ijaredonline.com/" target="_blank">Journal</a>
+                     </div>
+                 </t>
+            </t>
+         </field>
+
+     </record>
+
+</odoo>

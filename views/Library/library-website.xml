@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <record id="library-website" model="website.page">
+        <field name="name">Library Website</field>
+        <field name="website_published">True</field>
+        <field name="url">//https://library.emeacollege.ac.in/</field>
+        <field name="type">qweb</field>
+        <field name="key">website.library-website</field>
+        <field name="arch" type="xml">
+            <t t-name="website.library-website_template">
+                 <t t-call="website.layout">
+                     <div id="wrap" class="oe_structure">
+                         <a href="https://library.emeacollege.ac.in/" target="_blank">Library Website</a>
+                     </div>
+                 </t>
+            </t>
+         </field>
+
+     </record>
+
+</odoo>
+
+
+

@@ -431,66 +431,99 @@
                                 </section>
                              </main>
                              <footer class="EMEA">
-                                <section class="" style="line-height: 0.8; font-size: 14px; letter-spacing: 3">
+                                <section class="">
                                     <div class="container">
                                         <div class="a border-bottom py-3">
                                             <div class="row">
                                                 <div class="col-md-3 mt-4">
                                                     <h5 class="sub-heading mb-2 text-white">EMEA College</h5>
-                                                    <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                                    <hr class="info-color m-0 mb-2" style="width:80px;"/>
                                                     <div class="DescBox ContactUsMain text-white p-0">
                                                         <h2>EMEA College of Arts and Science</h2>
+
                                                         <p>Kumminiparamaba PO</p>
+
                                                         <p>Kondotty, Malappuram Dt.</p>
+
                                                         <p>Kerala - India</p>
+
                                                         <p>PIN :673638</p>
-                                                        <p>Phone :
-                                                            <a href="tel:0483 271 2030">0483 271 2030</a>
-                                                        </p>
-                                                        <p>E-mail :
-                                                            <a href="mailto:mail@emeacollege.ac.in">mail@emeacollege.ac.in</a>
-                                                        </p>
+
+                                                        <p>Phone : <a href="tel:0483 271 2030">0483 271 2030</a></p>
+
+                                                        <p>E-mail : <a href="mailto:mail@emeacollege.ac.in">mail@emeacollege.ac.in</a></p>
+
                                                     </div>
                                                     <div class="w-100 text-center">
-                                                        <a href="/Home/ContactUs" class="button-style text-white mt-4 mb-3" style="padding-top: 12px; padding-bottom: 12px;">
-                                                            <span> Read More</span>
-                                                        </a>
+                                                        <a href="/Home/ContactUs" class="button-style text-white mt-4 mb-3"><span> Read More</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 text-white mt-4">
-                                                    <h5 class="sub-heading text-white mb-2 text-center">BOOKS RELEASED</h5>
-                                                    <hr class="info-color mt-0 mb-2" style="width:80px;"></hr>
+                                                    <h5 class="sub-heading text-white mb-2 text-center" style="float: left;">BOOKS RELEASED</h5>
+                                                    <hr class="info-color mt-0 mb-2" style="width:40%; float: left;"></hr>
                                                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                                                        <div class="carousel-inner" style="width: 285px; padding-left:80px;">
+                                                        <div class="carousel-inner" style="width: 285px;">
                                                             <div class="carousel-item active">
-                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D681_F1036.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;"/>
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1038.jpeg" class="d-block w-100" alt="1" style="height: 150px; max-width: 130px; margin-left:45px; "/>
                                                                 <div class="py-2">
-                                                                    <h6 class="text-white text-center m-0">Pandemic Turn: Business Resilience Practice</h6>
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
                                                                 </div>
                                                             </div>
                                                             <div class="carousel-item" style="width: 285px;">
-                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D645_F927.jpeg" style="height: 150px; max-width: 130px;" class="d-block w-100" alt="one"/>
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1039.jpeg" style="height: 150px; max-width: 130px;margin-left:45px;" class="d-block w-100" alt="2"/>
                                                                 <div class="py-2">
                                                                     <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
                                                                 </div>
                                                             </div>
 
                                                             <div class="carousel-item" style="width: 285px;">
-                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1038.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1038.jpeg" class="d-block w-100" alt="3" style="height: 150px; max-width: 130px; margin-left:45px;" />
                                                                 <div class="py-2">
                                                                     <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
                                                                 </div>
                                                             </div>
                                                             <div class="carousel-item" style="width: 285px;">
-                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D646_F929.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D646_F929.jpeg" class="d-block w-100" alt="4" style="height: 150px; max-width: 130px; margin-left:45px;" />
                                                                 <div class="py-2">
-                                                                <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
-                                                            </div>
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.MASHHOOR K .</h6>
+                                                                </div>
                                                             </div>
                                                             <div class="carousel-item" style="width: 285px;">
-                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D682_F1039.jpeg" class="d-block w-100" alt="one" style="height: 150px; max-width: 130px;" />
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D645_F927.jpeg" class="d-block w-100" alt="5" style="height: 150px; max-width: 130px; margin-left:45px;" />
                                                                 <div class="py-2">
-                                                                    <h6 class="text-white text-center m-0">Published By Dr.Mohammed Haneefa</h6>
+                                                                    <h6 class="text-white text-center m-0">Published By Dr.MASHHOOR K .</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D636_F992.jpeg" class="d-block w-100" alt="6" style="height: 150px; max-width: 130px; margin-left:45px;" />
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Published By ABOOBACKER SIDDEEQ KC </h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D638_F911.jpeg" class="d-block w-100" alt="7" style="height: 150px; max-width: 130px; margin-left:45px;" />
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Physical Activity Health &amp; Wellness </h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item" style="width: 285px;">
+                                                                <img src="http://emeacollege.ac.in/Uploads/Images/Images_M0_D637_F910.jpeg" class="d-block w-100" alt="8" style="height: 150px; max-width: 130px; margin-left:45px;" />
+                                                                <div class="py-2">
+                                                                    <h6 class="text-white text-center m-0">Published By ABOOBACKER SIDDEEQ KC  </h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="controls clickable">
+                                                                <div class="pagination">
+                                                                    <div class="page"><span class=""></span></div>
+                                                                    <div class="page"><span class=""></span></div>
+                                                                    <div class="page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page"><span class=""></span></div>
+                                                                    <div class="owl-page active"><span class=""></span></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -500,115 +533,79 @@
                                                             </a>
                                                         </div>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 mt-4" style="line-height: 1.5rem !important;font: normal normal normal 14px/1 FontAwesome;line-height: 1; font-weight: 400;">
+                                                <div class="col-md-3 mt-4">
                                                     <h5 class="sub-heading text-white mb-2">QUICK LINKS</h5>
-                                                    <hr class="info-color m-0 mb-2" style="width:80px;"></hr>
+                                                    <hr class="info-color m-0 mb-2" style="width:80px;"/>
                                                     <div class="mb-2">
                                                         <a href="/Home/IQAC/Feedback/1731" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Curriculum Feedback                                    </a>
                                                         <a href="/Home/IQAC/Feedback/1732" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum Feedback ATR
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Curriculum Feedback ATR                                    </a>
                                                         <a href="/Home/StudentAffairs/StudentsDescipline/1675/1723" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Grievance Redressal
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Student Grievance Redressal                                    </a>
                                                         <a href="/Home/AboutUs/CodeofConduct" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Code of Conduct
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Code of Conduct                                    </a>
                                                         <a href="/Home/StudentAffairs/CapabilityEnhancementandDevelopmentSchemes/1753" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Capability Enhancement &amp; Development...
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Capability Enhancement &amp; Development...                                     </a>
                                                         <a href="/Home/AboutUs/AboutCollege" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Core Values
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Core Values                                    </a>
                                                         <a href="http://emeacollege.ac.in/Home/studentaffairs/StudentSupportSchemes/502" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Student Support Schemes
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Student Support Schemes                                    </a>
                                                         <a href="http://emeacollege.ac.in/Home/StudentAffairs/StudentSupportSchemes/502/1881" class="text-white d-block">
-                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Swayam
-                                                        </a>
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Swayam                                    </a>
                                                     </div>
+
                                                     <div class="w-100 text-center">
-                                                        <a href="/Home/QuickLinks" class="button-style text-white mt-3 mb-3">
-                                                            <span> Read More</span>
-                                                        </a>
+                                                        <a href="/Home/QuickLinks" class="button-style text-white mt-3 mb-3"><span> Read More</span></a>
                                                     </div>
+
                                                 </div>
                                                 <div class="col-md-3 mt-5">
                                                     <div class="row">
                                                         <style>
-                                                                .MapFrame {
-                                                                    width: 100%;
-                                                                    height: 230px;
-                                                                }
-                                                            </style>
+                                                            .MapFrame {
+                                                                width: 100%;
+                                                                height: 230px;
+                                                            }
+                                                        </style>
                                                         <iframe class="MapFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.723591211386!2d75.94059231480391!3d11.133951792079507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64e5770b9701d%3A0x45f25d89e25f2256!2sEMEA%20College!5e0!3m2!1sen!2sin!4v1581589270430!5m2!1sen!2sin" style="border:0;" allowfullscreen="" frameborder="0"></iframe>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--<div class="col-md-12 border-bottom py-2"> </div>-->
                                         <div class="col-md-12 text-center pt-3 footersmalllink text-uppercase" style="color:#d0d0d0;">
+
                                             <a href="/Home/FooterLinks/BloodDoner/1902">BLOOD DONORS</a> |
-
                                             <a href="/Home/ContactUs">DIRECTORY</a> |
-
-
-
                                             <a href="/Home/FooterLinks/Covid19/1832">COVID-19</a> |
-
                                             <a href="/Home/FooterLinks/Vacancy/1834">VACANCY</a> |
-
                                             <a href="/Home/Tenders">TENDERS</a> |
-
                                             <a href="/Home/Newsletters">NEWSLETTERS</a> |
-
                                             <a href="http://results.uoc.ac.in/">EXAM RESULTS</a> |
-
                                             <a href="/Home/Orders">ORDERS</a> |
-
                                             <a href="/Home/ImageGallery">GALLERY</a> |
-
                                             <a href="/Home/aboutus/PTA">PTA</a> |
 
-
                                             <a href="/Home/SiteMap">SITE MAP</a> |
-
                                             <a href="/Home/FooterLinks/Disclaimer/1901">Disclaimer</a> |
 
-
                                             <a href="https://www.ugc.ac.in/page/Helpline.aspx" target="_blank">24 x 7 Anti Ragging Helpline</a> |
-
                                             <a href="https://forms.gle/QBn4BBCHXaEsEh8T9" target="_blank">Complaints ( Ragging )</a> |
-
                                             <a href="https://forms.gle/mrr9EnyvVX859o5eA" target="_blank">Complaints ( Students Caste Discrimination )</a> |
-
                                             <a href="https://forms.gle/iLGJZ5HhhdUpTq4S9" target="_blank">Complaints ( Sexual Harrassment )</a> |
 
-
                                             <a href="https://forms.gle/x4obWqCiN62r49Zu8" target="_blank">Programme feedback</a> |
-
                                             <a href="https://forms.gle/YZkLXjXkTP2wxdoZ8" target="_blank">Campus Feedback</a> |
-
                                             <a href="https://forms.gle/P1kNeiFUxH8kqeLa7" target="_blank">Student Feedback</a> |
-
                                             <a href="https://forms.gle/5Gt7FgkEPCoCRjm76" target="_blank">Site Feedback</a>  |
-
                                             <a href="#">Site Visitors</a> :
-
                                             <!-- Start of WebFreeCounter Code -->
-                                            <a href="#">
-                                                <img src="https://www.webfreecounter.com/hit.php?id=gefdcxo&amp;nd=6&amp;style=2" alt="hit counter" border="0"></img>
-                                            </a>
+                                            <a href="#"><img src="https://www.webfreecounter.com/hit.php?id=gefdcxo&amp;nd=6&amp;style=2" alt="hit counter" border="0"/></a>
                                             <!-- End of WebFreeCounter Code -->
                                         </div>
-                                        <div class="text-center pt-2 pb-3" style="font-size:14px;">
-                                            <p class="m-0" style="color: gold;">Powered by
-                                                <a style="font-size:14px;" href="#">EMDOTMINCETECH</a>
-                                            </p>
-                                        </div>
+                                        <div class="text-center pt-2 pb-3" style="font-size:14px;"><p class="m-0" style="color: gold;">Powered by <a style="font-size:14px;" href="#">EMDOTMINCETECH</a></p></div>
                                     </div>
                                 </section>
                             </footer>

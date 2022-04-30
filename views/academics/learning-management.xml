@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
      <record id="learning-management" model="website.page">
-        <field name="name">Learning Management System</field>
+        <field name="name">L</field>
         <field name="website_published">True</field>
+        <field name="url">/journal</field>
         <field name="type">qweb</field>
-        <field name="key">website.learning-management</field>
+        <field name="key">website.journal</field>
         <field name="arch" type="xml">
-            <t t-name="website.learning-management_template">
+            <t t-name="website.journal_template">
                  <t t-call="website.layout">
                      <div id="wrap" class="oe_structure">
                          <a href="https://lms.emeacollege.ac.in/" target="_blank">Learning Management System</a>
                      </div>
                  </t>
             </t>
-        </field>
+         </field>
+
      </record>
+
 </odoo>
+
+
+

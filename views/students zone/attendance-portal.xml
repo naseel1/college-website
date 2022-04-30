@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <record id="attendance-portal" model="website.page">
+        <field name="name">Attendance Portal</field>
+        <field name="website_published">True</field>
+        <field name="url">/attendance portal</field>
+        <field name="type">qweb</field>
+        <field name="key">website.attendance-portal</field>
+        <field name="arch" type="xml">
+            <t t-name="website.attendance-portal_template">
+                 <t t-call="website.layout">
+                     <div id="wrap" class="oe_structure">
+                         <a href="http://tcs.emeacollege.ac.in/Login.aspx">Attandance portal</a>
+                     </div>
+                 </t>
+            </t>
+         </field>
+
+     </record>
+
+</odoo>

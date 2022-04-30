@@ -128,7 +128,7 @@
             </record>
             <record id="rti_menu" model="website.menu">
                 <field name="name">RTI Declaration</field>
-                <field name="url">/RTI</field>
+                <field name="url">/rti</field>
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
             </record>
@@ -206,6 +206,7 @@
             </record>
             <record id="learning-management_menu" model="website.menu">
                 <field name="name">Learning Management System</field>
+                <field name="url">/learning management</field>
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
             </record>
@@ -269,6 +270,568 @@
                 <field name="parent_id" ref="website.main_menu"/>
                 <field name="sequence" type="int">80</field>
             </record>
+            <record id="scholarship_menu" model="website.menu">
+                <field name="name">scholarship</field>
+                <field name="url">/scholarship</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="college-magazines_menu" model="website.menu">
+                <field name="name">College Magazines</field>
+                <field name="url">/college magazines</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="attendance-portal_menu" model="website.menu">
+                <field name="name">Attendance Portal</field>
+                <field name="url">/attendance portal</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="research-Committee_menu" model="website.menu">
+                <field name="name">Research Committee</field>
+                <field name="url">/research Committee</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+             <record id="research_menu" model="website.menu">
+                <field name="name">RESEARCH</field>
+                 <field name="url">/research</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="code-of-ethics_menu" model="website.menu">
+                <field name="name">Code Of Ethics</field>
+                 <field name="url">/code of ethics</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="research-depts_menu" model="website.menu">
+                <field name="name">Research Depts and Guides</field>
+                 <field name="url">/research depts</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="research-scholars_menu" model="website.menu">
+                <field name="name">Research Scholars &amp; Ph.Ds</field>
+                 <field name="url">/research scholars</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="research-project_menu" model="website.menu">
+                <field name="name">Research Project</field>
+                 <field name="url">/research project</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="publication_menu" model="website.menu">
+                <field name="name">Publication</field>
+                 <field name="url">/publication</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="journal_menu" model="website.menu">
+                <field name="name">Journal</field>
+                <field name="url">/journal</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="downloads_menu" model="website.menu">
+                <field name="name">Downloads</field>
+                <field name="url">/downloads</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+             <record id="facilities_menu" model="website.menu">
+                <field name="name">FACILITIES</field>
+                <field name="url">/facilities</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="laboratories_menu" model="website.menu">
+                <field name="name">Laboratories</field>
+                <field name="url">/laboratories</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ca-lab_menu" model="website.menu">
+                <field name="name">Computer Application Lab</field>
+                <field name="url">/ca lab</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="msc-biology_menu" model="website.menu">
+                <field name="name">MSc Microbiology Lab</field>
+                <field name="url">/msc biology</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="bsc-biology_menu" model="website.menu">
+                <field name="name">BSc Microbiology Lab</field>
+                <field name="url">/bsc biology</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="bio-chem_menu" model="website.menu">
+                <field name="name">BSc Biochemistry Lab</field>
+                <field name="url">/bio chemistry</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="bio-tech_menu" model="website.menu">
+                <field name="name">BSc Bio Technology Lab</field>
+                <field name="url">/bio technology</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="language_menu" model="website.menu">
+                <field name="name">language Lab</field>
+                <field name="url">/language lab</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="academic-support_menu" model="website.menu">
+                <field name="name">Academic Support</field>
+                <field name="url">/academic support</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="administrative-office_menu" model="website.menu">
+                <field name="name">Administrative Office</field>
+                <field name="url">/administrative office</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="well-equipped_menu" model="website.menu">
+                <field name="name">Well Equipped Class Rooms</field>
+                <field name="url">/well equipped</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="a-departments_menu" model="website.menu">
+                <field name="name">Departments</field>
+                <field name="url">/a departments</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="auditorium_menu" model="website.menu">
+                <field name="name">Auditorium</field>
+                <field name="url">/auditorium</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="seminar-hall_menu" model="website.menu">
+                <field name="name">Seminar Hall</field>
+                <field name="url">/seminar hall</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="exam-hall_menu" model="website.menu">
+                <field name="name">Examination Hall</field>
+                <field name="url">/exam hall</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="open-air-class-room_menu" model="website.menu">
+                <field name="name">Open Air Class Room</field>
+                <field name="url">/open air class room</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="open-air-theatre_menu" model="website.menu">
+                <field name="name">Open Air Theatre</field>
+                <field name="url">/open air theatre</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="class-room-announcement_menu" model="website.menu">
+                <field name="name">Classroom Announcement System</field>
+                <field name="url">/classroom announcement</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="server-room_menu" model="website.menu">
+                <field name="name">Server Room</field>
+                <field name="url">/server room</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="mens-hostel_menu" model="website.menu">
+                <field name="name">Hostels/Retiring Rooms</field>
+                <field name="url">/hostels retiring rooms</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ladies-hostel_menu" model="website.menu">
+                <field name="name">Ladies Hostel</field>
+                <field name="url">/hostels retiring rooms1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="guest-room_menu" model="website.menu">
+                <field name="name">Guest Room</field>
+                <field name="url">/hostels retiring rooms2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="guest-retiring_menu" model="website.menu">
+                <field name="name">Guest Retiring Room</field>
+                <field name="url">/hostels retiring rooms3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="girls-retiring_menu" model="website.menu">
+                <field name="name">Girls Retiring Room</field>
+                <field name="url">/hostels retiring rooms4</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ladies-retiring_menu" model="website.menu">
+                <field name="name">Ladies Retiring Room</field>
+                <field name="url">/hostels retiring rooms5</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="sports-games_menu" model="website.menu">
+                <field name="name">Sports Games</field>
+                <field name="url">/sports games</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="basketball_menu" model="website.menu">
+                <field name="name">Basketball Court</field>
+                <field name="url">/sports games1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="vollyball_menu" model="website.menu">
+                <field name="name">Volly ball Court</field>
+                <field name="url">/sports games2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="handball_menu" model="website.menu">
+                <field name="name">Hand ball Court</field>
+                <field name="url">/sports games3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="tennis_menu" model="website.menu">
+                <field name="name">Tennis Court</field>
+                <field name="url">/sports games4</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="shuttle_menu" model="website.menu">
+                <field name="name">Shuttle Court</field>
+                <field name="url">/sports games6</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="badminton_menu" model="website.menu">
+                <field name="name">Ball Badminton Court</field>
+                <field name="url">/sports games5</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="gym_menu" model="website.menu">
+                <field name="name">Gymnasium</field>
+                <field name="url">/sports games7</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="biogas_menu" model="website.menu">
+                <field name="name">BioGas Plant</field>
+                <field name="url">/eco friendly1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="solar_menu" model="website.menu">
+                <field name="name">Eco Friendly system</field>
+                <field name="url">/eco friendly</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="herbal_menu" model="website.menu">
+                <field name="name">Herbal Garden</field>
+                <field name="url">/eco friendly2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="horticulture_menu" model="website.menu">
+                <field name="name">Horticulture Farm</field>
+                <field name="url">/eco friendly3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="bamboo_menu" model="website.menu">
+                <field name="name">Bamboo Lake</field>
+                <field name="url">/eco friendly4</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="incinerator_menu" model="website.menu">
+                <field name="name">Incinerator</field>
+                <field name="url">/eco friendly5</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="mahagony-park_menu" model="website.menu">
+                <field name="name">Mahagony Park</field>
+                <field name="url">/eco friendly6</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="rain-water_menu" model="website.menu">
+                <field name="name">Rain Water Harvesting</field>
+                <field name="url">/eco friendly7</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="water-purification_menu" model="website.menu">
+                <field name="name">Water Purification</field>
+                <field name="url">/eco friendly8</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="canteen_menu" model="website.menu">
+                <field name="name">General Facilities</field>
+                <field name="url">/general facilities</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="cctv-surveillance_menu" model="website.menu">
+                <field name="name">CCTV Surveillance</field>
+                <field name="url">/general facilities1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="open-stage_menu" model="website.menu">
+                <field name="name">Open Stage</field>
+                <field name="url">/general facilities2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="co-operative-store_menu" model="website.menu">
+                <field name="name">Co-Operative store</field>
+                <field name="url">/general facilities3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="cafeteria_menu" model="website.menu">
+                <field name="name">Cafeteria</field>
+                <field name="url">/general facilities4</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="counseling-centre_menu" model="website.menu">
+                <field name="name">Counseling Centre</field>
+                <field name="url">/general facilities5</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="car-parking_menu" model="website.menu">
+                <field name="name">Car Parking</field>
+                <field name="url">/general facilities6</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="biometric-system_menu" model="website.menu">
+                <field name="name">Biometric System</field>
+                <field name="url">/general facilities7</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="campus-wi-fi_menu" model="website.menu">
+                <field name="name">Campus Wi-Fi</field>
+                <field name="url">/general facilities8</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="conveyance_menu" model="website.menu">
+                <field name="name">Conveyance</field>
+                <field name="url">/general facilities9</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="mhrd_menu" model="website.menu">
+                <field name="name">MHRD</field>
+                <field name="url">/mhrd</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ugc_menu" model="website.menu">
+                <field name="name">UGC</field>
+                <field name="url">/ugc</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="aishe_menu" model="website.menu">
+                <field name="name">AISHE</field>
+                <field name="url">/aishe</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ariia_menu" model="website.menu">
+                <field name="name">ARIIA</field>
+                <field name="url">/ariia</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="nirf_menu" model="website.menu">
+                <field name="name">NIRF</field>
+                <field name="url">/nirf</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="pfms_menu" model="website.menu">
+                <field name="name">PFMS</field>
+                <field name="url">/pfms</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="rusa_menu" model="website.menu">
+                <field name="name">RUSA</field>
+                <field name="url">/rusa</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="contactus_menu" model="website.menu">
+                <field name="name">CONTACT US</field>
+                <field name="url">/Home/ContactUs</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="alumni_menu" model="website.menu">
+                <field name="name">ALUMNI</field>
+                <field name="url">/alumni</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="osaemea_menu" model="website.menu">
+                <field name="name">OSAEMEA</field>
+                <field name="url">/osaemea</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="osaemea-chapter1_menu" model="website.menu">
+                <field name="name">OSAEMEA Chapter</field>
+                <field name="url">/osaemea chapter1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="osaemea-chapter2_menu" model="website.menu">
+                <field name="name">OSAEMEA Chapter</field>
+                <field name="url">/osaemea chapter2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="osaemea-chapter3_menu" model="website.menu">
+                <field name="name">OSAEMEA Chapter</field>
+                <field name="url">/osaemea chapter3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="osaemea-website_menu" model="website.menu">
+                <field name="name">OSAEMEA Website</field>
+                <field name="url">http://emeaalumniuae.com</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="library_menu" model="website.menu">
+                <field name="name">LIBRARY</field>
+                <field name="url">/library</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="library-members_menu" model="website.menu">
+                <field name="name">LIBRARY Members</field>
+                <field name="url">/library members</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="library-website_menu" model="website.menu">
+                <field name="name">LIBRARY Website</field>
+                <field name="url">//https://library.emeacollege.ac.in/</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="iqac_menu" model="website.menu">
+                <field name="name">IQAC</field>
+                <field name="url">/iqac</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="composition_menu" model="website.menu">
+                <field name="name">Composition</field>
+                <field name="url">/iqac1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="function_menu" model="website.menu">
+                <field name="name">Function and Objectives</field>
+                <field name="url">/iqac2</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="department-quality_menu" model="website.menu">
+                <field name="name">Department Quality Assurance Committee(DQAC)</field>
+                <field name="url">/iqac3</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="aqar_menu" model="website.menu">
+                <field name="name">AQAR</field>
+                <field name="url">/iqac4</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="minutes_menu" model="website.menu">
+                <field name="name">Minutes &amp; ATR</field>
+                <field name="url">/iqac5</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="annual-report_menu" model="website.menu">
+                <field name="name">Annual Reports</field>
+                <field name="url">/iqac6</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="ssr-documents_menu" model="website.menu">
+                <field name="name">SSR Documents</field>
+                <field name="url">/iqac7</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="students-satisfaction_menu" model="website.menu">
+                <field name="name">Students Satisfaction Survey</field>
+                <field name="url">/iqac8</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="best -practices_menu" model="website.menu">
+                <field name="name">Best Practices</field>
+                <field name="url">/iqac9</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="activities_menu" model="website.menu">
+                <field name="name">Activities</field>
+                <field name="url">/iqac10</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+            <record id="composition_menu" model="website.menu">
+                <field name="name">Composition</field>
+                <field name="url">/iqac1</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">80</field>
+            </record>
+
+
+
+
 
 
 

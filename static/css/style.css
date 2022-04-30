@@ -2,12 +2,16 @@ body {
   background: #f5f8fd;
   color: #000;
   font-family: "Nunito Sans", Arial, sans-serif;
+  line-height: 0.8;
+}
+.pb-5, .py-5 {
+  padding-bottom: 3rem !important;
   line-height: 1.8;
 }
 body {
   background: white;
-  font-family: 'Ubuntu', sans-serif;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: '"Nunito Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
@@ -15,10 +19,9 @@ body {
 }
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1rem;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -83,7 +86,7 @@ button {
 }
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font-family: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
   font-size: inherit;
   text-rendering: auto;
@@ -264,15 +267,6 @@ a {
   display: inline-block;
   font: 27px/13px arial,sans-serif;
     line-height: 13px;
-}
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-    font-size: 14px;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .fa-search::before {
   content: "\f002";
@@ -514,9 +508,6 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-pack: center !important;
   justify-content: center !important;
 }
-.mb-2, .my-2 {
-  margin-bottom: .5rem !important;
-}
 .mt-2, .my-2 {
   margin-top: .5rem !important;
 }
@@ -527,10 +518,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: red;
 }
 .mb-2, .my-2 {
-  margin-bottom: .5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 0rem !important;
 }
 .m-0 {
-    margin: 0 !important;
+    margin: 1 !important;
     margin-bottom: 0px;
 }
 hr {
@@ -636,7 +628,7 @@ img {
     -webkit-touch-callout: none;
 }
 .mb-2, .my-2 {
-    margin-bottom: .5rem !important;
+    margin-bottom: 1.5rem !important;
 }
 .pb-2, .py-2 {
     padding-bottom: .5rem !important;
@@ -1094,4 +1086,31 @@ header .navbar .dropdown-menu {
   background-color: transparent;
   border: 0;
   font-size: 12px;
+}
+.dark-blue {
+  color: #088282;
+}
+.fa-file-pdf-o::before {
+  content: "\f1c1";
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0px 6px;
+  background: #15587d;
+  color: #15587d;
+  border-radius: 10px;
+}
+
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+}
+[aria-hidden="true"], [aria-hidden="1"] {
+  display: -webkit-inline-box !important;
 }
